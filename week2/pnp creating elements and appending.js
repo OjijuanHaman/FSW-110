@@ -15,7 +15,9 @@ var lists =[
     'Greens',
     'Beans',
     'Potatoes',
-    'Tomatoes'
+    'Tomatoes',
+    'Lamb',
+    'Ram'
 ],
 
 listContents = document.createElement('div'),
