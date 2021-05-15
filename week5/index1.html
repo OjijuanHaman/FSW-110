@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Other Types of HTML Inputs</title>
+</head>
+<body>
+    <form name = stats action = '#'>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age" name="age"
+       min="0" max="100"><br>
+       
+       <p>Have you been out of the country?</p>
+       <input type="radio" id="Yes" name="answer" value="yes">
+       <label for="yes">Yes</label><br>
+       <input type="radio" id="No" name="answer" value="no">
+       <label for="no">No</label><br>
+       
+       <p>Whats your favorite color?</p>
+       <input type="radio" id="Red" name="color" value="red">
+       <label for="red">Red</label><br>
+       <input type="radio" id="Green" name="color" value="green">
+       <label for="green">Green</label><br>
+       <input type="radio" id="Yellow" name="color" value="yellow">
+       <label for="yellow">Yellow</label><br>
+        
+       <p>How would you describe yourself?</p>
+       <input type="checkbox" id="Tall" name="h" value="Tall">
+        <label for="tall"> Tall</label><br>
+        <input type="checkbox" id="Short" name="h" value="Short">
+        <label for="short"> Short</label><br>
+        <input type="checkbox" id="Average" name="h" value="Average">
+        <label for="average"> Average</label><br><br>
+        
+        <input type="submit" value="Submit" onclick= " AlertForm(); boxCheck()" >
+
+</form>
+    <script src="index1.js"></script>
+</body>
+</html>
