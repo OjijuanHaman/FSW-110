@@ -12,7 +12,7 @@ function AlertForm(){
       checkedBoxes += boxes[i].value + ', ';
       }
     }
-        alert(a + checkedBoxes)
+        alert('Name: ' + a + ' ' + b + '\n' + 'Age: ' + c + '\n' + 'Been out the country? ' + d + '\n' + 'Favorite Color: ' + e + '\n'+ 'Described as: '+ checkedBoxes)
 }
   
 
