@@ -1,3 +1,8 @@
+var h1 =  document.createElement("h1")
+h1.textContent="To-Do List";
+
+document.getElementById('heading').appendChild(h1)
+
 var form = document.toDoList
 
 var addList = document.querySelector('.list')
@@ -27,7 +32,13 @@ form.addEventListener('submit',function(e){
 
     var button1 = document.createElement('button')
     addList.appendChild(button1)
-    
+    button1.textContent = "delete"
+
+    button1.addEventListener('click',function(){
+        listItem2.remove()
+         button1.remove()
+     })
+
     var input1 = form.input1.value
     var input2 = form.input2.value
 

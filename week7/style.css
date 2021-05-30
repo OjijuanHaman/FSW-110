@@ -1,0 +1,52 @@
+
+#heading{
+    font-family: 'Lobster Two', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Rock Salt', cursive;
+font-size: 2rem;
+
+
+}
+h1{
+    margin-bottom: 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+button{
+    width: 100px;
+    box-shadow: 5px 5px 5px 1px black;
+    margin: 10px;
+
+}
+button:hover{
+    background-color: yellow;
+}
+.input1 , .input2{
+    font-size: 1.25rem;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+li{
+    font-size: 1.10rem;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Rock Salt', cursive;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+body{
+    background-color:#FFFDE7 ;
+    margin-left: 100px;
+}
+img{
+    margin-bottom: 10px;
+    border-radius:4px;
+}
